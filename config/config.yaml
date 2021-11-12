@@ -1,4 +1,6 @@
+data_source: C:\Users\SambasivaRaoT\input_data\PredictingHeartDisease.csv
+
 artifacts:
   artifacts_dir: input_data
   input_data_dir: raw
-  data_file: PredictingHeartDisease.csv
+  data_file: data.csv
