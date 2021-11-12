@@ -5,7 +5,6 @@ import pandas as pd
 import os
 
 
-
 def get_data(config_path):
     
     """
@@ -13,6 +12,9 @@ def get_data(config_path):
     """
 
     try:
+        # Get log object
+        log = appLogger()
+
         config = read_yaml(config_path)
         # print(config)
         
@@ -36,7 +38,7 @@ def get_data(config_path):
 
         
     except Exception as e:
-        appLogger.error(e)
+        log.error(e)
 
 
 
