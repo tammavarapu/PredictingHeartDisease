@@ -1,0 +1,4 @@
+artifacts:
+  artifacts_dir: input_data
+  input_data_dir: raw
+  data_file: PredictingHeartDisease.csv
